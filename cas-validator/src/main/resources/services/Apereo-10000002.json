@@ -1,0 +1,12 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|imaps|http)://fangliang.*",
+  "name" : "Apereo",
+  "theme" : "fangliang",
+  "id" : 10000002,
+  "description" : "Apereo foundation sample service",
+  "evaluationOrder" : 100,
+  "attributeReleasePolicy" : { 
+     "@class" : "org.apereo.cas.services.ReturnAllowedAttributeReleasePolicy"
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "@class" : "org.apereo.cas.services.RegexRegisteredService",
+  "serviceId" : "^(https|imaps|http)://.*",
+  "name" : "Fangliang",
+  "id" : 1000,
+  "description" : "fangliang项目访问过来，跳转到fangliang的theme",
+  "evaluationOrder" : 10,
+  "theme" : "fangliang",
+  "attributeReleasePolicy" : {
+    "@class" : "org.apereo.cas.services.ReturnAllAttributeReleasePolicy"
+  }
+}
